@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
-public class AgendamentoServiceTest {
+
     @ExtendWith(MockitoExtension.class)
     public class AgendamentoServiceTest {
 
@@ -83,4 +83,4 @@ public class AgendamentoServiceTest {
             assertEquals(agendamentoRecordOut, resultado, "O objeto retornado deve ser igual ao esperado");
         }
     }
-}
+
