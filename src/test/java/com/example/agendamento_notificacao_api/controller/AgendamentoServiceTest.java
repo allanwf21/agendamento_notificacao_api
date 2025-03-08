@@ -48,8 +48,8 @@ import static org.mockito.Mockito.when;
 
             // Crie uma entidade de exemplo. Caso utilize record ou classe, adapte conforme necessário.
             agendamentoEntity = Agendamento.builder()
-                    .id(1L)
-                    .dataHoraEnvio(LocalDateTime.of(2025, 1, 2, 11, 1, 1))
+                    .Id(1L)
+                    .dataHoraEnvio( LocalDateTime.of(2025, 1, 2, 11, 1, 1))
                     .emailDestinatario("email@email.com")
                     .telefoneDestinatario("55887996578")
                     .mensagem("Favor retornar a loja com urgência")
