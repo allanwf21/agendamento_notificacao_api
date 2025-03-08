@@ -23,7 +23,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-public class AgendamentoControllerTest {
+
 
     @ExtendWith(MockitoExtension.class)
     public class AgendamentoControllerTest {
@@ -79,4 +79,4 @@ public class AgendamentoControllerTest {
     }
 
 
-}
+
