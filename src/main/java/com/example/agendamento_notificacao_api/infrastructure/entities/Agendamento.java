@@ -24,7 +24,7 @@ public class Agendamento {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private long Id;
+    private long id;
     private String emailDestinatario;
     private String telefoneDestinatario;
     private LocalDateTime dataHoraEnvio;
